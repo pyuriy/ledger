@@ -54,7 +54,7 @@ Amounts are stored in cents so totals stay exact.
 
 ## Install on a standalone Rocky Linux host
 
-Works on Rocky Linux 8, 9, or 10, x86_64 or aarch64, with sudo. The host only serves the pages. Each visitor's entries stay in that visitor's browser.
+For a Rocky Linux 8, 9, or 10 host, x86_64 or aarch64, with sudo. The host only serves the pages. Each visitor's entries stay in that visitor's browser.
 
 You need Node.js 22 or newer to build. Rocky Linux 10 has it in AppStream. Rocky Linux 8 and 9 have it as the `nodejs:22` module stream. nginx serves the built files on port 80.
 
